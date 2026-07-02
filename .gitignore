@@ -1,0 +1,12 @@
+# Documentation & planning (keep local only)
+docs/
+
+# Agent configuration files
+.agents/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
