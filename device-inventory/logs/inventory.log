@@ -6,3 +6,7 @@
 {"timestamp": "2026-07-03T05:29:43.985192Z", "event_type": "new_device", "mac_address": "1a:06:64:10:b9:cc", "ip_address": "172.19.0.3", "message": "Unknown device joined the network: MAC 1a:06:64:10:b9:cc at IP 172.19.0.3"}
 {"timestamp": "2026-07-03T05:30:44.149749Z", "event_type": "new_device", "mac_address": "52:9c:58:a2:8c:61", "ip_address": "172.19.0.4", "message": "Unknown device joined the network: MAC 52:9c:58:a2:8c:61 at IP 172.19.0.4"}
 {"timestamp": "2026-07-03T05:30:44.151009Z", "event_type": "new_device", "mac_address": "c2:2f:6a:be:b4:42", "ip_address": "172.19.0.3", "message": "Unknown device joined the network: MAC c2:2f:6a:be:b4:42 at IP 172.19.0.3"}
+{"timestamp": "2026-07-03T05:43:15.044878Z", "event_type": "new_device", "mac_address": "92:06:ca:ad:af:cc", "ip_address": "172.19.0.3", "message": "Unknown device joined the network: MAC 92:06:ca:ad:af:cc at IP 172.19.0.3"}
+{"timestamp": "2026-07-03T05:43:15.280864Z", "event_type": "new_device", "mac_address": "72:be:ff:8b:95:f1", "ip_address": "172.19.0.4", "message": "Unknown device joined the network: MAC 72:be:ff:8b:95:f1 at IP 172.19.0.4"}
+{"timestamp": "2026-07-03T05:43:15.282883Z", "event_type": "new_device", "mac_address": "92:06:ca:ad:af:cc", "ip_address": "172.19.0.3", "message": "Unknown device joined the network: MAC 92:06:ca:ad:af:cc at IP 172.19.0.3"}
+{"timestamp": "2026-07-03T05:47:15.590928Z", "event_type": "new_device", "mac_address": "fe:94:72:d4:43:bf", "ip_address": "172.20.0.2", "message": "Unknown device joined the network: MAC fe:94:72:d4:43:bf at IP 172.20.0.2"}
