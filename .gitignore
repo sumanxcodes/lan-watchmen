@@ -1,6 +1,9 @@
 # Documentation & planning (keep local only)
 docs/
 
+# Upstream repo clone — not our code
+wazuh-docker/
+
 
 # OS files
 .DS_Store
