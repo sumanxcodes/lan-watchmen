@@ -1,0 +1,76 @@
+Jul  3 00:00:15 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:00:15 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:00:45 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:00:45 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:01:15 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:01:15 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:01:45 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:01:45 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:02:15 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:02:15 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:02:45 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:02:45 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:03:15 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:03:15 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:03:45 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:03:45 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:04:15 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:04:15 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:04:46 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:04:46 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:05:16 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:05:16 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:05:46 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:05:46 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:06:16 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:06:16 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:06:46 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:06:46 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:07:16 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:07:16 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:07:46 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:07:46 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:08:16 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:08:16 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:08:46 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:08:46 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:09:16 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:09:16 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:09:47 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:09:47 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:10:17 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:10:17 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:10:47 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:10:47 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:11:17 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:11:17 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:11:47 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:11:47 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:12:17 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:12:17 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:12:47 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:12:47 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:13:17 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:13:17 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:13:47 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:13:47 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:14:17 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:14:17 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:14:48 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:14:48 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:15:18 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:15:18 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:15:48 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:15:48 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:16:18 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:16:18 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:16:48 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:16:48 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:17:18 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:17:18 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:17:48 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:17:48 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:18:18 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:18:18 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
+Jul  3 00:18:48 dnsmasq[53]: query[A] pi.hole from 127.0.0.1
+Jul  3 00:18:48 dnsmasq[53]: Pi-hole hostname pi.hole is 127.0.0.1
