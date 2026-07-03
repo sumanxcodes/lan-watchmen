@@ -1,5 +1,6 @@
-2026-07-03 00:33:05.073 CDT [53/T57] ERROR: Cannot read gravity database at /etc/pihole/gravity.db - file does not exist or is not readable
-2026-07-03 00:33:03.022 CDT [53/T57] ERROR: Cannot read gravity database at /etc/pihole/gravity.db - file does not exist or is not readable
+2026-07-03 00:33:27.100 CDT [53/T57] ERROR: Cannot read gravity database at /etc/pihole/gravity.db - file does not exist or is not readable
+22.022 CDT [53/T57] ERROR: Cannot read gravity database at /etc/pihole/gravity.db - file does not exist or is not readable
+ is not readable
 ] ERROR: SQLite3: os_unix.c:45908: (0) open(/etc/pihole/pihole-FTL.db-wal) -  (14)
 2026-07-03 00:33:00.042 CDT [53/T57] ERROR: SQLite3: unable to open database file in "DELETE FROM network_addresses WHERE lastSeen < 1775194380;" (14)
 2026-07-03 00:33:00.042 CDT [53/T57] ERROR: ERROR: SQL query "DELETE FROM network_addresses WHERE lastSeen < 1775194380;" failed: unable to open database file (SQLITE_CANTOPEN)
