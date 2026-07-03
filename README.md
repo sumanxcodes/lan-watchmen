@@ -21,7 +21,7 @@ I've done a fair bit of security coursework and academic project work, but not m
 I'm writing a blog series as I build this, one post per stage. Links go here as they're published:
 
 - [ ] Post 1 — why I'm building this
-- [ ] Post 2 — getting Wazuh running
+- [x] Post 2 — getting Wazuh running
 - [ ] Post 3 — wiring up Pi-hole
 - [ ] Post 4 — device inventory script
 - [ ] Post 5 — writing detection rules
