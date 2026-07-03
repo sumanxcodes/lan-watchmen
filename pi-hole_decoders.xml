@@ -1,0 +1,92 @@
+<!--
+# Ignore
+January 10 00:00:00 dnsmasq[53]: failed to send UDP request: Network unreachable
+January 10 00:00:00 example.compile time options: IPv6 GNU-getopt no-DBus no-UBus no-i18n IDN2 DHCP DHCPv6 Lua TFTP no-conntrack ipset no-nftset auth DNSSEC loop-detect inotify dumpfile
+January 10 00:00:00 dnsmasq[53]: read /etc/pihole/hosts/custom.list - 0 names
+January 10 00:00:00 dnsmasq[53]: started, version pi-hole-v2.91 cachesize 10000
+January 10 00:00:00 dnsmasq[53]: using nameserver 109.112.112.11#53
+January 10 00:00:00 dnsmasq[53]: using only locally-known addresses for bind
+January 10 00:00:00 dnsmasq[53]: using only locally-known addresses for invalid
+-->
+
+<decoder name="dnsmasq">
+  <prematch type="pcre2">dnsmasq\[\d+\]:</prematch>
+</decoder>
+
+<!--
+January 10 00:00:00 dnsmasq[53]: query[AAAA] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[AAAA] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[A] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[A] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[HTTPS] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[HTTPS] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[MX] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[PTR] 0.0.0.0.in-addr.arpa from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[PTR] 0.0.0.224.in-addr.arpa from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[SOA] local from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[SRV] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[SRV] example.com from 192.168.0.2
+January 10 00:00:00 dnsmasq[53]: query[SVCB] _dns.resolver.arpa from 192.168.0.2
+May 14 00:00:00 dnsmasq[53]: query 1-courier.push.apple.com from 100.65.165.92
+-->
+
+<decoder name="dnsmasq-fields">
+  <parent>dnsmasq</parent>
+  <regex type="pcre2">(query)\[(\S+)\] (\S+) from 192.168.0.2</regex>
+  <order>action, query_type, data, srcip</order>
+</decoder>
+
+
+<decoder name="dnsmasq-fields">
+  <parent>dnsmasq</parent>
+  <regex type="pcre2">(query) (\S+) from (\S+)</regex>
+  <order>action, data, srcip</order>
+</decoder>
+
+<!--
+January 10 00:00:00 dnsmasq[53]: forwarded example.com to 9.9.9.11
+January 10 00:00:00 dnsmasq[53]: forwarded 0.0.0.224.in-addr.arpa to 9.9.9.11
+-->
+
+<decoder name="dnsmasq-fields">
+  <parent>dnsmasq</parent>
+  <regex type="pcre2">(forwarded|dnssec-query\[DS\]) (\S+) to (\S+)</regex>
+  <order>action, data, extra_data</order>
+</decoder>
+
+<!--
+January 10 00:00:00 dnsmasq[53]: /etc/hosts 127.0.0.1 is localhost
+January 10 00:00:00 dnsmasq[53]: Apple iCloud Private Relay domain example.com is NXDOMAIN
+January 10 00:00:00 dnsmasq[53]: Designated Resolver domain _dns.resolver.arpa is NODATA
+January 10 00:00:00 dnsmasq[53]: Pi-hole hostname pi.hole is 192.168.3.246
+January 10 00:00:00 dnsmasq[53]: config 0.0.0.0 is pi.hole
+January 10 00:00:00 dnsmasq[53]: config 172.17.0.1 is NXDOMAIN
+January 10 00:00:00 dnsmasq[53]: Rate-limiting 106.3.168.192.in-addr.arpa is REFUSED (EDE: blocked)
+January 10 00:00:00 dnsmasq[53]: cached 224.0.0.0 is base-address.mcast.net
+January 10 00:00:00 dnsmasq[53]: cached example.com is NODATA
+January 10 00:00:00 dnsmasq[53]: cached-stale example.com is 192.168.0.1
+January 10 00:00:00 dnsmasq[53]: cached-stale example.com.dual-spo-0005.spo-msedge.net is <CNAME>
+January 10 00:00:00 dnsmasq[53]: gravity blocked (CNAME) example.com is 0.0.0.0
+January 10 00:00:00 dnsmasq[53]: gravity blocked (CNAME) example.com is ::
+January 10 00:00:00 dnsmasq[53]: gravity blocked a.pub.network is 0.0.0.0
+January 10 00:00:00 dnsmasq[53]: gravity blocked a.pub.network is ::
+January 10 00:00:00 dnsmasq[53]: regex denied ads.mozilla.org is 0.0.0.0
+January 10 00:00:00 dnsmasq[53]: regex denied ads.mozilla.org is ::
+January 10 00:00:00 dnsmasq[53]: reply example.com is <CNAME>
+January 10 00:00:00 dnsmasq[53]: reply example.com.akadns.net is <CNAME>
+January 10 00:00:00 dnsmasq[53]: special domain _dns.resolver.arpa is NODATA
+January 10 00:00:00 dnsmasq[53]: special domain example.com is NXDOMAIN
+-->
+
+<decoder name="dnsmasq-fields">
+  <parent>dnsmasq</parent>
+  <regex type="pcre2">(blacklisted|/etc/hosts|Apple iCloud Private Relay|Designated Resolver domain|Pi-hole hostname|config|Rate-limiting|cached-stale|cached|gravity blocked \(CNAME\)|gravity blocked|regex|reply|special domain) (\S+) is (\S+)</regex>
+  <order>action, data, extra_data</order>
+</decoder>
+
+<decoder name="dnsmasq-fields">
+  <parent>dnsmasq</parent>
+  <regex type="pcre2">(validation|validation result) (\S+) is (BOGUS|SECURE|INSECURE|TRUNCATED)</regex>
+  <order>action, data, extra_data</order>
+</decoder>
+
