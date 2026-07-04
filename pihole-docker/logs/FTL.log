@@ -68,3 +68,6 @@
 2026-07-03 00:47:02.590 CDT [53/T57] INFO:  -> Known forward destinations: 1
 2026-07-03 00:47:02.592 CDT [53/T57] INFO: Compiled 0 allow and 0 deny regex for 1 client in 0.2 msec
 2026-07-03 00:52:02.507 CDT [53/T58] WARNING: Disk shortage ahead: 98% is used (452.2GB used, 460.4GB total) on fakeowner filesystem mounted at /etc/dnsmasq.d
+2026-07-03 00:54:00.021 CDT [53/T57] ERROR: SQLite3: recovered 34 frames from WAL file /etc/pihole/pihole-FTL.db-wal (283)
+2026-07-03 07:21:13.832 CDT [53/T58] WARNING: Disk shortage ahead: 98% is used (452.7GB used, 460.4GB total) on fakeowner filesystem mounted at /etc/dnsmasq.d
+2026-07-03 08:19:30.696 CDT [53/T58] WARNING: Disk shortage ahead: 99% is used (456.1GB used, 460.4GB total) on fakeowner filesystem mounted at /etc/dnsmasq.d
