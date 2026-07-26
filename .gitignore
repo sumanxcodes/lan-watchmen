@@ -1,9 +1,5 @@
-# Documentation & planning (keep local only)
-docs/
-
 # Upstream repo clone — not our code
 wazuh-docker/
-
 
 # OS files
 .DS_Store
@@ -11,3 +7,9 @@ wazuh-docker/
 # IDE
 .vscode/
 .idea/
+
+# Runtime logs and data
+device-inventory/logs/
+pihole-docker/etc-dnsmasq.d/
+pihole-docker/etc-pihole/
+pihole-docker/logs/
